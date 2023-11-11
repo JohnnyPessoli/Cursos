@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  text-decoration: 0;
+  font-family: 'Playpen Sans', cursive;
+  scroll-behavior: smooth;
+}
+
+.sobre-titulo {
+  font-size: 2em;
+  width: max-content;
+  background-color: #1e0b38;
+  color: #ffbe0b;
+  width: max-content;
+  padding: 0 0.9em;
+}
+
+#nome {
+  font-size: 3em;
+  color: #ffbe0b;
+  background-color: #1e0b38;
+  width: max-content;
+  padding: 0 0.5em;
+}
+#cargo{
+  font-size: 1.5em;
+  color: #1e0b38;
+  background-color: #ffffff;
+  width: max-content;
+  padding: 0 0.5em;
+}
+
+#linkHome{
+  font-size: 3em;
+  color: orange;
+  position: fixed;
+  z-index: 100;
+  right: 20px;
+  bottom: 50px;
+
+}
+
+#header {
+  position: fixed;
+  width: 100vw;
+  height: 4em;
+  background-color: #1e0b38;
+}
+
+#header a {
+  color: #ffbe0b;
+  padding: 0 1em;
+  border-bottom: #ffffff;
+  
+}
+
+#header-menu {
+  font-size: 1.2em;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#header > nav > a:hover {
+  border-bottom: 2px solid #ffffff;
+}
+
+#home {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 3em;
+  background-image: url("./Assets/Images/imagem-home.jpg");
+  background-position: center;
+  background-size: cover;
+  
+
+}
+.home h2{
+  color: #1e0b38;
+  background-color: #ffbe0b;
+  width: max-content;
+  padding: 0 0.9em;
+}
+
+#sobre{
+  
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 3em;
+  
+}
+
+#sobre p {
+  padding-top: 1em;
+}
+
+#dados_contato{
+  color: aliceblue;
+  background-color: #1e0b38;
+  width: 100vw;
+  height: 20vh;
+  padding: 0 3em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#dados_contato ul{
+  list-style: none;
+}
+
+#dados_contato a{
+  color: aliceblue;
+}
+
+#dados_contato h3{
+  font-size: 2em ;
+}
+
+#formacoes{
+  width: 100vw;
+  height: 20vh;
+  padding: 3em;
+}
+
+#formacoes ol{
+  display: flex;
+  padding-top: 2em;
+}
+
+#formacoes li{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 2em;
+}
+
+#experiencias{
+  width: 100vw;
+  height: 15vh;
+  padding: 3em;
+  background: #1e0b38;
+  color: aliceblue;
+}
+
+#experiencias ul{
+  padding-top: 4em;
+  padding: 1em;
+}
+
+#experiencias h3{
+  font-size: 2em;
+  width: max-content;
+  background-color: #ffffff;
+  color: #1e0b38;
+  width: max-content;
+  padding: 0 0.9em;
+}
+
+#ProjetosGithub{
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3em;
+  
+}
+
+#ProjetosGithub h3{
+  font-size: 2em;
+  width: max-content;
+  background-color: #1e0b38;
+  color: #ffbe0b;
+  width: max-content;
+  padding: 0 0.9em;
+}
+
+#ProjetosGithub i{
+  padding-right: 0.3em;
+}
+
+#ProjetosGithub ul{
+  padding-top: 4em;
+  padding: 1em;
+}
+
+.footer {
+  width: 100vw;
+  height: 2vh;
+  padding: 1em 3em;
+  background: #ffbe0b;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer a{
+  color: #1e0b38;
+  padding-right: 2em;
+}
