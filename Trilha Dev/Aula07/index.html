@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Aula 07</h1>
+    <script>
+        // window.confirm("Você confirma a operação?")
+
+        // function soma(num1, num2) {
+        //     return num1 + num2
+        // }
+
+        // let numero1 = Number(prompt("Digite o primeiro numero:"))
+        // let numero2 = Number(prompt("Digite o primeiro numero:"))
+
+        // let resultado = soma(numero1, numero2)
+        // console.log("O resultado da soma é: "+resultado)
+
+        // let nome = "Bruno Costa"
+        // let arrayNomes = ["Maria", "Breno", "Carlos"]
+        // console.log("Array de nomes: " +arrayNomes[2], "e " +arrayNomes[1])
+
+        let numeros = []    
+        for(let i = 0; i < 10; i++){
+            let num = Number(prompt("Digite um número "));
+            
+            let jaTemNumero = numeros.filter(function(n){
+                return n == num
+            })
+            if(jaTemNumero.length == 0){
+                numeros.push(num)
+                alert('Este numero já existe')
+            } 
+            numeros.push(num)
+        }
+    
+        console.log(numeros.sort())
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+#form {
+    height: 5em;
+    width: 20em;
+    padding: 2em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    right: 10em;
+}
